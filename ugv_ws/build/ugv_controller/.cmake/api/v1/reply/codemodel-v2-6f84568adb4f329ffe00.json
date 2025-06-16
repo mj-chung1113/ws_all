@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f7ab94658fd6d3b81eaa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ugv_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "manual_path_logger_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manual_path_logger_node-88cb503f17e83cd622b3.json",
+					"name" : "manual_path_logger_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_follower_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_follower_node-b555fe46fd9a6ac6c83e.json",
+					"name" : "path_follower_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_controller_uninstall-eca8b605faf0b97d4217.json",
+					"name" : "ugv_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-851b21024fe2dc3af49d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yoo/final_project/ugv_ws/build/ugv_controller",
+		"source" : "/home/yoo/final_project/ugv_ws/src/ugv_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,26 @@
+[0.033s] Invoking command in '/home/yoo/final_project/ugv_ws/build/ugv_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yoo/final_project/ugv_ws/build/ugv_controller -- -j16 -l16
+[0.162s] [100%] Built target path_follower_node
+[0.162s] [100%] Built target manual_path_logger_node
+[0.194s] Invoked command in '/home/yoo/final_project/ugv_ws/build/ugv_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yoo/final_project/ugv_ws/build/ugv_controller -- -j16 -l16
+[0.220s] Invoking command in '/home/yoo/final_project/ugv_ws/build/ugv_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yoo/final_project/ugv_ws/build/ugv_controller
+[0.243s] -- Install configuration: ""
+[0.244s] -- Execute custom install script
+[0.244s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/lib/ugv_controller/path_follower_node
+[0.245s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/lib/ugv_controller/manual_path_logger_node
+[0.245s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/launch/path_follower.launch.py
+[0.246s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ament_index/resource_index/package_run_dependencies/ugv_controller
+[0.246s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ament_index/resource_index/parent_prefix_path/ugv_controller
+[0.246s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/environment/ament_prefix_path.sh
+[0.246s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/environment/ament_prefix_path.dsv
+[0.247s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/environment/path.sh
+[0.247s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/environment/path.dsv
+[0.247s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/local_setup.bash
+[0.247s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/local_setup.sh
+[0.248s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/local_setup.zsh
+[0.248s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/local_setup.dsv
+[0.248s] -- Symlinking: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/package.dsv
+[0.273s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ament_index/resource_index/packages/ugv_controller
+[0.274s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/cmake/ugv_controllerConfig.cmake
+[0.274s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/cmake/ugv_controllerConfig-version.cmake
+[0.274s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/ugv_controller/share/ugv_controller/package.xml
+[0.281s] Invoked command in '/home/yoo/final_project/ugv_ws/build/ugv_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yoo/final_project/ugv_ws/build/ugv_controller

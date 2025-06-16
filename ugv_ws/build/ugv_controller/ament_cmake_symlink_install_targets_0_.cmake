@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yoo/final_project/ugv_ws/build/ugv_controller/path_follower_node" "/home/yoo/final_project/ugv_ws/build/ugv_controller/manual_path_logger_node" "TARGETS" "path_follower_node" "manual_path_logger_node" "DESTINATION" "lib/ugv_controller")

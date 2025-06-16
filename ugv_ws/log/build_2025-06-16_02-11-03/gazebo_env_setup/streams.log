@@ -1,0 +1,25 @@
+[0.014s] Invoking command in '/home/yoo/final_project/ugv_ws/build/gazebo_env_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yoo/final_project/ugv_ws/build/gazebo_env_setup -- -j16 -l16
+[0.075s] [100%] Built target pose_tf_broadcaster
+[0.102s] Invoked command in '/home/yoo/final_project/ugv_ws/build/gazebo_env_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yoo/final_project/ugv_ws/build/gazebo_env_setup -- -j16 -l16
+[0.103s] Invoking command in '/home/yoo/final_project/ugv_ws/build/gazebo_env_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yoo/final_project/ugv_ws/build/gazebo_env_setup
+[0.110s] -- Install configuration: ""
+[0.110s] -- Execute custom install script
+[0.111s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/lib/gazebo_env_setup/pose_tf_broadcaster
+[0.111s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/launch/pose_tf_broadcaster.launch.py
+[0.111s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/launch/topic_bridge.launch.py
+[0.111s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/ament_index/resource_index/package_run_dependencies/gazebo_env_setup
+[0.111s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/ament_index/resource_index/parent_prefix_path/gazebo_env_setup
+[0.112s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/environment/ament_prefix_path.sh
+[0.112s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/environment/ament_prefix_path.dsv
+[0.112s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/environment/path.sh
+[0.112s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/environment/path.dsv
+[0.112s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/local_setup.bash
+[0.112s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/local_setup.sh
+[0.112s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/local_setup.zsh
+[0.112s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/local_setup.dsv
+[0.112s] -- Symlinking: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/package.dsv
+[0.120s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/ament_index/resource_index/packages/gazebo_env_setup
+[0.120s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/cmake/gazebo_env_setupConfig.cmake
+[0.121s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/cmake/gazebo_env_setupConfig-version.cmake
+[0.121s] -- Up-to-date symlink: /home/yoo/final_project/ugv_ws/install/gazebo_env_setup/share/gazebo_env_setup/package.xml
+[0.143s] Invoked command in '/home/yoo/final_project/ugv_ws/build/gazebo_env_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yoo/final_project/ugv_ws/build/gazebo_env_setup

@@ -1,0 +1,66 @@
+[0.119s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/yoo/final_project/ugv_ws']
+[0.119s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/yoo/final_project/ugv_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76fe6c9fe2c0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x76fe6cb53430>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x76fe6cb53430>>)
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.167s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yoo/final_project/ugv_ws'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/build) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/build) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/install) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/install) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/log) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/log) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/gazebo_env_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/gazebo_env_setup) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/gazebo_env_setup) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/gazebo_env_setup) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/gazebo_env_setup) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/gazebo_env_setup) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/gazebo_env_setup) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/gazebo_env_setup) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/gazebo_env_setup) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yoo/final_project/ugv_ws/src/gazebo_env_setup' with type 'ros.ament_cmake' and name 'gazebo_env_setup'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/ugv_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/ugv_controller) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/ugv_controller) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/ugv_controller) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/ugv_controller) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/ugv_controller) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/ugv_controller) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/ugv_controller) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yoo/final_project/ugv_ws/src/ugv_controller) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yoo/final_project/ugv_ws/src/ugv_controller' with type 'ros.ament_cmake' and name 'ugv_controller'
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
