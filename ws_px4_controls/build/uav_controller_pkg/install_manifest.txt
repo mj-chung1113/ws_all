@@ -1,0 +1,17 @@
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/lib/uav_controller_pkg/offboard_control_node
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/lib/uav_controller_pkg/uav_controller
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/ament_index/resource_index/package_run_dependencies/uav_controller_pkg
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/ament_index/resource_index/parent_prefix_path/uav_controller_pkg
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/environment/ament_prefix_path.sh
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/environment/ament_prefix_path.dsv
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/environment/path.sh
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/environment/path.dsv
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/local_setup.bash
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/local_setup.sh
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/local_setup.zsh
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/local_setup.dsv
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.dsv
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/ament_index/resource_index/packages/uav_controller_pkg
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/cmake/uav_controller_pkgConfig.cmake
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/cmake/uav_controller_pkgConfig-version.cmake
+/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.xml

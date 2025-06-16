@@ -1,0 +1,77 @@
+[0.006s] Invoking command in '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/acdl1/ws_all/ws_px4_controls/src/uav_controller_pkg -DCMAKE_INSTALL_PREFIX=/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.073s] -- The CXX compiler identification is GNU 11.4.0
+[0.078s] -- Detecting C compiler ABI info
+[0.122s] -- Detecting C compiler ABI info - done
+[0.127s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.127s] -- Detecting C compile features
+[0.128s] -- Detecting C compile features - done
+[0.130s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.186s] -- Detecting CXX compile features
+[0.186s] -- Detecting CXX compile features - done
+[0.188s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.448s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.507s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.534s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.537s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.542s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.560s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.589s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.591s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.643s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.661s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.690s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.695s] -- Looking for pthread.h
+[0.741s] -- Looking for pthread.h - found
+[0.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.786s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.787s] -- Found Threads: TRUE  
+[0.824s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.834s] -- Found px4_msgs: 2.0.1 (/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/cmake)
+[0.845s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.902s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.902s] -- Configured cppcheck include dirs: 
+[0.902s] -- Configured cppcheck exclude dirs and/or files: 
+[0.903s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.904s] -- Added test 'lint_cmake' to check CMake code style
+[0.904s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.907s] -- Added test 'uncrustify' to check C / C++ code style
+[0.907s] -- Configured uncrustify additional arguments: 
+[0.908s] -- Added test 'xmllint' to check XML markup files
+[0.909s] -- Configuring done
+[0.917s] -- Generating done
+[0.920s] -- Build files have been written to: /home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg
+[0.930s] Invoked command in '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/acdl1/ws_all/ws_px4_controls/src/uav_controller_pkg -DCMAKE_INSTALL_PREFIX=/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg
+[0.931s] Invoking command in '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg -- -j16 -l16
+[0.968s] [ 50%] [32mBuilding CXX object CMakeFiles/uav_controller.dir/src/uav_controller.cpp.o[0m
+[0.968s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control_node.dir/src/offboard_control_node.cpp.o[0m
+[8.915s] [ 75%] [32m[1mLinking CXX executable offboard_control_node[0m
+[9.211s] [ 75%] Built target offboard_control_node
+[10.301s] [100%] [32m[1mLinking CXX executable uav_controller[0m
+[10.641s] [100%] Built target uav_controller
+[10.648s] Invoked command in '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg -- -j16 -l16
+[10.649s] Invoking command in '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg
+[10.653s] -- Install configuration: ""
+[10.653s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/lib/uav_controller_pkg/offboard_control_node
+[10.655s] -- Set runtime path of "/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/lib/uav_controller_pkg/offboard_control_node" to ""
+[10.655s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/lib/uav_controller_pkg/uav_controller
+[10.658s] -- Set runtime path of "/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/lib/uav_controller_pkg/uav_controller" to ""
+[10.658s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/ament_index/resource_index/package_run_dependencies/uav_controller_pkg
+[10.658s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/ament_index/resource_index/parent_prefix_path/uav_controller_pkg
+[10.658s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/environment/ament_prefix_path.sh
+[10.658s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/environment/ament_prefix_path.dsv
+[10.658s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/environment/path.sh
+[10.658s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/environment/path.dsv
+[10.659s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/local_setup.bash
+[10.659s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/local_setup.sh
+[10.659s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/local_setup.zsh
+[10.659s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/local_setup.dsv
+[10.659s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.dsv
+[10.659s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/ament_index/resource_index/packages/uav_controller_pkg
+[10.659s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/cmake/uav_controller_pkgConfig.cmake
+[10.659s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/cmake/uav_controller_pkgConfig-version.cmake
+[10.659s] -- Installing: /home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.xml
+[10.661s] Invoked command in '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg

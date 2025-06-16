@@ -1,0 +1,291 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c8876153190>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c88761527a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c88761527a0>>, mixin_verb=('build',))
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.107s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/acdl1/ws_all/ws_px4_controls'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller_pkg) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller_pkg) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller_pkg) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller_pkg) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller_pkg) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller_pkg) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller_pkg) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_controller_pkg) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_controller_pkg' with type 'ros.ament_cmake' and name 'uav_controller_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.139s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/acdl1/ws_all/ws_px4_controls/install
+[0.139s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/humble
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.168s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/acdl1/ws_all/ws_px4_controls/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs', 'merge_install': False, 'path': '/home/acdl1/ws_all/ws_px4_controls/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.168s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/acdl1/ws_all/ws_px4_controls/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com', 'merge_install': False, 'path': '/home/acdl1/ws_all/ws_px4_controls/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'uav_controller_pkg' build argument 'cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'uav_controller_pkg' build argument 'cmake_target' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'uav_controller_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'uav_controller_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'uav_controller_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'uav_controller_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'uav_controller_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'uav_controller_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.168s] Level 5:colcon.colcon_core.verb:set package 'uav_controller_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.168s] DEBUG:colcon.colcon_core.verb:Building package 'uav_controller_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg', 'merge_install': False, 'path': '/home/acdl1/ws_all/ws_px4_controls/src/uav_controller_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.168s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.169s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/acdl1/ws_all/ws_px4_controls/src/px4_msgs' with build type 'ament_cmake'
+[0.169s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/acdl1/ws_all/ws_px4_controls/src/px4_msgs'
+[0.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acdl1/ws_all/ws_px4_controls/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/acdl1/ws_all/ws_px4_controls/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs
+[2.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acdl1/ws_all/ws_px4_controls/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/acdl1/ws_all/ws_px4_controls/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs
+[2.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acdl1/ws_all/ws_px4_controls/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acdl1/ws_all/ws_px4_controls/build/px4_msgs -- -j16 -l16
+[143.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acdl1/ws_all/ws_px4_controls/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acdl1/ws_all/ws_px4_controls/build/px4_msgs -- -j16 -l16
+[143.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acdl1/ws_all/ws_px4_controls/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/acdl1/ws_all/ws_px4_controls/build/px4_msgs
+[143.852s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[143.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acdl1/ws_all/ws_px4_controls/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/acdl1/ws_all/ws_px4_controls/build/px4_msgs
+[143.854s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs' for CMake module files
+[143.854s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs' for CMake config files
+[143.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[143.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[143.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[143.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[143.860s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib'
+[143.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[143.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[143.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[143.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[143.861s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/bin'
+[143.861s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[143.861s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib/python3.10/site-packages'
+[143.861s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/bin'
+[143.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/package.ps1'
+[143.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/package.dsv'
+[143.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/package.sh'
+[143.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/package.bash'
+[143.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/package.zsh'
+[143.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[143.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[143.864s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs' for CMake module files
+[143.865s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs' for CMake config files
+[143.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[143.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[143.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[143.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[143.866s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib'
+[143.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[143.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[143.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[143.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[143.867s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/bin'
+[143.867s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[143.867s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib/python3.10/site-packages'
+[143.867s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/bin'
+[143.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/package.ps1'
+[143.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/package.dsv'
+[143.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/package.sh'
+[143.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/package.bash'
+[143.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/px4_msgs/package.zsh'
+[143.869s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[143.869s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/acdl1/ws_all/ws_px4_controls/src/px4_ros_com' with build type 'ament_cmake'
+[143.870s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/acdl1/ws_all/ws_px4_controls/src/px4_ros_com'
+[143.870s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[143.870s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[143.872s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/acdl1/ws_all/ws_px4_controls/src/uav_controller_pkg' with build type 'ament_cmake'
+[143.872s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/acdl1/ws_all/ws_px4_controls/src/uav_controller_pkg'
+[143.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[143.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[143.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acdl1/ws_all/ws_px4_controls/build/px4_ros_com': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/acdl1/ws_all/ws_px4_controls/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com
+[143.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/acdl1/ws_all/ws_px4_controls/src/uav_controller_pkg -DCMAKE_INSTALL_PREFIX=/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg
+[144.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/acdl1/ws_all/ws_px4_controls/src/uav_controller_pkg -DCMAKE_INSTALL_PREFIX=/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg
+[144.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg -- -j16 -l16
+[144.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acdl1/ws_all/ws_px4_controls/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/acdl1/ws_all/ws_px4_controls/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com
+[144.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acdl1/ws_all/ws_px4_controls/build/px4_ros_com': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/acdl1/ws_all/ws_px4_controls/build/px4_ros_com -- -j16 -l16
+[152.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acdl1/ws_all/ws_px4_controls/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/acdl1/ws_all/ws_px4_controls/build/px4_ros_com -- -j16 -l16
+[152.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acdl1/ws_all/ws_px4_controls/build/px4_ros_com': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/acdl1/ws_all/ws_px4_controls/build/px4_ros_com
+[152.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[152.247s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com' for CMake module files
+[152.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acdl1/ws_all/ws_px4_controls/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/acdl1/ws_all/ws_px4_controls/build/px4_ros_com
+[152.247s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com' for CMake config files
+[152.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[152.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[152.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[152.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[152.249s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/lib'
+[152.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[152.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[152.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[152.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[152.250s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/bin'
+[152.250s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[152.250s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/lib/python3.10/site-packages'
+[152.250s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/bin'
+[152.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[152.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[152.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/package.sh'
+[152.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/package.bash'
+[152.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[152.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[152.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[152.252s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com' for CMake module files
+[152.252s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com' for CMake config files
+[152.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[152.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[152.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[152.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[152.254s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/lib'
+[152.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[152.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[152.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[152.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[152.255s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/bin'
+[152.255s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[152.255s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/lib/python3.10/site-packages'
+[152.255s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/bin'
+[152.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[152.256s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[152.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/package.sh'
+[152.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/package.bash'
+[152.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[152.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/acdl1/ws_all/ws_px4_controls/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[154.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg -- -j16 -l16
+[154.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg
+[154.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_controller_pkg)
+[154.532s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg' for CMake module files
+[154.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/acdl1/ws_all/ws_px4_controls/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/acdl1/ws_all/ws_px4_controls/build/uav_controller_pkg
+[154.533s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg' for CMake config files
+[154.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_controller_pkg', 'cmake_prefix_path')
+[154.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/hook/cmake_prefix_path.ps1'
+[154.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/hook/cmake_prefix_path.dsv'
+[154.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/hook/cmake_prefix_path.sh'
+[154.534s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/lib'
+[154.534s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/bin'
+[154.534s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/lib/pkgconfig/uav_controller_pkg.pc'
+[154.534s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/lib/python3.10/site-packages'
+[154.535s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/bin'
+[154.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.ps1'
+[154.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.dsv'
+[154.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.sh'
+[154.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.bash'
+[154.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.zsh'
+[154.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/colcon-core/packages/uav_controller_pkg)
+[154.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_controller_pkg)
+[154.537s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg' for CMake module files
+[154.537s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg' for CMake config files
+[154.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_controller_pkg', 'cmake_prefix_path')
+[154.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/hook/cmake_prefix_path.ps1'
+[154.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/hook/cmake_prefix_path.dsv'
+[154.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/hook/cmake_prefix_path.sh'
+[154.538s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/lib'
+[154.538s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/bin'
+[154.538s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/lib/pkgconfig/uav_controller_pkg.pc'
+[154.538s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/lib/python3.10/site-packages'
+[154.538s] Level 1:colcon.colcon_core.environment:checking '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/bin'
+[154.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.ps1'
+[154.539s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.dsv'
+[154.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.sh'
+[154.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.bash'
+[154.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.zsh'
+[154.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/acdl1/ws_all/ws_px4_controls/install/uav_controller_pkg/share/colcon-core/packages/uav_controller_pkg)
+[154.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[154.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[154.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[154.541s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[154.544s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[154.544s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[154.544s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[154.552s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[154.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/acdl1/ws_all/ws_px4_controls/install/local_setup.ps1'
+[154.553s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/acdl1/ws_all/ws_px4_controls/install/_local_setup_util_ps1.py'
+[154.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/acdl1/ws_all/ws_px4_controls/install/setup.ps1'
+[154.554s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/acdl1/ws_all/ws_px4_controls/install/local_setup.sh'
+[154.555s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/acdl1/ws_all/ws_px4_controls/install/_local_setup_util_sh.py'
+[154.555s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/acdl1/ws_all/ws_px4_controls/install/setup.sh'
+[154.556s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/acdl1/ws_all/ws_px4_controls/install/local_setup.bash'
+[154.556s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/acdl1/ws_all/ws_px4_controls/install/setup.bash'
+[154.557s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/acdl1/ws_all/ws_px4_controls/install/local_setup.zsh'
+[154.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/acdl1/ws_all/ws_px4_controls/install/setup.zsh'
