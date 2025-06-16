@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/jmj/ws_all/ws_px4_controls/build/uav_controller_pkg': CMAKE_PREFIX_PATH=/home/jmj/ws_all/ws_px4_controls/install/px4_msgs:/home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg:/home/jmj/ws_all/ws_px4_controls/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/ws_all/ws_px4_controls/install/px4_msgs/lib:/home/jmj/ws_all/ws_px4_controls/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /home/jmj/ws_all/ws_px4_controls/build/uav_controller_pkg -- -j20 -l20
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_node[0m
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target uav_controller[0m
+[0.064s] [ 50%] Built target offboard_control_node
+[0.067s] [100%] Built target uav_controller
+[0.081s] Invoked command in '/home/jmj/ws_all/ws_px4_controls/build/uav_controller_pkg' returned '0': CMAKE_PREFIX_PATH=/home/jmj/ws_all/ws_px4_controls/install/px4_msgs:/home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg:/home/jmj/ws_all/ws_px4_controls/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/ws_all/ws_px4_controls/install/px4_msgs/lib:/home/jmj/ws_all/ws_px4_controls/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /home/jmj/ws_all/ws_px4_controls/build/uav_controller_pkg -- -j20 -l20
+[0.088s] Invoking command in '/home/jmj/ws_all/ws_px4_controls/build/uav_controller_pkg': CMAKE_PREFIX_PATH=/home/jmj/ws_all/ws_px4_controls/install/px4_msgs:/home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg:/home/jmj/ws_all/ws_px4_controls/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/ws_all/ws_px4_controls/install/px4_msgs/lib:/home/jmj/ws_all/ws_px4_controls/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --install /home/jmj/ws_all/ws_px4_controls/build/uav_controller_pkg
+[0.094s] -- Install configuration: ""
+[0.094s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/lib/uav_controller_pkg/offboard_control_node
+[0.094s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/lib/uav_controller_pkg/uav_controller
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/ament_index/resource_index/package_run_dependencies/uav_controller_pkg
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/ament_index/resource_index/parent_prefix_path/uav_controller_pkg
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/environment/ament_prefix_path.sh
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/environment/ament_prefix_path.dsv
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/environment/path.sh
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/environment/path.dsv
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/local_setup.bash
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/local_setup.sh
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/local_setup.zsh
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/local_setup.dsv
+[0.095s] -- Installing: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.dsv
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/ament_index/resource_index/packages/uav_controller_pkg
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/cmake/uav_controller_pkgConfig.cmake
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/cmake/uav_controller_pkgConfig-version.cmake
+[0.095s] -- Up-to-date: /home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg/share/uav_controller_pkg/package.xml
+[0.096s] Invoked command in '/home/jmj/ws_all/ws_px4_controls/build/uav_controller_pkg' returned '0': CMAKE_PREFIX_PATH=/home/jmj/ws_all/ws_px4_controls/install/px4_msgs:/home/jmj/ws_all/ws_px4_controls/install/uav_controller_pkg:/home/jmj/ws_all/ws_px4_controls/install/px4_ros_com:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/ws_all/ws_px4_controls/install/px4_msgs/lib:/home/jmj/ws_all/ws_px4_controls/install/px4_ros_com/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --install /home/jmj/ws_all/ws_px4_controls/build/uav_controller_pkg
