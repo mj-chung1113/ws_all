@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000479] (uav_controller_pkg) JobQueued: {'identifier': 'uav_controller_pkg', 'dependencies': OrderedDict()}
+[0.000530] (uav_controller_pkg) JobStarted: {'identifier': 'uav_controller_pkg'}
+[0.005237] (uav_controller_pkg) JobProgress: {'identifier': 'uav_controller_pkg', 'progress': 'cmake'}
+[0.005691] (uav_controller_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/kyj/ws_px4_control/src/uav_controller_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kyj/ws_px4_control/src/uav_controller_pkg/install/uav_controller_pkg'], 'cwd': '/home/kyj/ws_px4_control/src/uav_controller_pkg/build/uav_controller_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'kyj'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kyj/catkin_ws/install/realsense2_camera/lib:/home/kyj/catkin_ws/install/realsense2_camera_msgs/lib:/home/kyj/catkin_ws/install/librealsense2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kyj'), ('OLDPWD', '/home/kyj/ws_px4_control/src/uav_controller_pkg/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1452'), ('SYSTEMD_EXEC_PID', '2063'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '32845'), ('CARLA_ROOT', '/home/kyj/carla_simulator/'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/kyj/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kyj'), ('JOURNAL_STREAM', '8:5724'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/kyj/catkin_ws/install/librealsense2/lib/x86_64-linux-gnu/pkgconfig:/home/kyj/catkin_ws/install/librealsense2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kyj'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/kyj/catkin_ws/install/librealsense2/bin:/opt/ros/humble/bin:/home/kyj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kyj:@/tmp/.ICE-unix/2036,unix/kyj:/tmp/.ICE-unix/2036'), ('INVOCATION_ID', 'f28e8d8d09024989973ad7f9eea221a7'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kyj/catkin_ws/install/realsense2_description:/home/kyj/catkin_ws/install/realsense2_camera:/home/kyj/catkin_ws/install/realsense2_camera_msgs:/home/kyj/catkin_ws/install/dummy_center_pub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ddee6797-b3fa-4fab-8155-1e3a744e922a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kyj/ws_px4_control/src/uav_controller_pkg/build/uav_controller_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kyj/carla_simulator/PythonAPI/carla/dist/carla-0.9.14-py3.10-linux-x86_64.egg:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/PythonAPI/carla/dist/carla-0.9.14-py3.10-linux-x86_64.egg:/home/kyj/carla_simulator/PythonAPI:/home/kyj/carla_simulator/PythonAPI/carla:/home/kyj/carla_simulator/PythonAPI/examples'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kyj/catkin_ws/install/realsense2_description:/home/kyj/catkin_ws/install/realsense2_camera:/home/kyj/catkin_ws/install/realsense2_camera_msgs:/home/kyj/catkin_ws/install/librealsense2:/home/kyj/catkin_ws/install/dummy_center_pub:/opt/ros/humble')]), 'shell': False}
+[0.047124] (uav_controller_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.083561] (uav_controller_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.089257] (uav_controller_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099867] (-) TimerEvent: {}
+[0.142170] (uav_controller_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.146696] (uav_controller_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.146879] (uav_controller_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.147097] (uav_controller_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.149034] (uav_controller_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199957] (-) TimerEvent: {}
+[0.210545] (uav_controller_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.215655] (uav_controller_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.215817] (uav_controller_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.216107] (uav_controller_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.218294] (uav_controller_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300034] (-) TimerEvent: {}
+[0.400240] (-) TimerEvent: {}
+[0.459354] (uav_controller_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500305] (-) TimerEvent: {}
+[0.500440] (uav_controller_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.525057] (uav_controller_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.556890] (uav_controller_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.560557] (uav_controller_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.566903] (uav_controller_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.575465] (uav_controller_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.585957] (uav_controller_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600396] (-) TimerEvent: {}
+[0.618164] (uav_controller_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.620060] (uav_controller_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.690361] (uav_controller_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.700462] (-) TimerEvent: {}
+[0.710702] (uav_controller_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.744800] (uav_controller_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.751248] (uav_controller_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800562] (-) TimerEvent: {}
+[0.810018] (uav_controller_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.810341] (uav_controller_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.867488] (uav_controller_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.868111] (uav_controller_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900651] (-) TimerEvent: {}
+[0.901463] (uav_controller_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.917773] (uav_controller_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[0.917958] (uav_controller_pkg) StderrLine: {'line': b'  By not providing "Findpx4_msgs.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.917999] (uav_controller_pkg) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "px4_msgs",\n'}
+[0.918033] (uav_controller_pkg) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[0.918065] (uav_controller_pkg) StderrLine: {'line': b'\n'}
+[0.918096] (uav_controller_pkg) StderrLine: {'line': b'  Could not find a package configuration file provided by "px4_msgs" with any\n'}
+[0.918128] (uav_controller_pkg) StderrLine: {'line': b'  of the following names:\n'}
+[0.918159] (uav_controller_pkg) StderrLine: {'line': b'\n'}
+[0.918188] (uav_controller_pkg) StderrLine: {'line': b'    px4_msgsConfig.cmake\n'}
+[0.918218] (uav_controller_pkg) StderrLine: {'line': b'    px4_msgs-config.cmake\n'}
+[0.918252] (uav_controller_pkg) StderrLine: {'line': b'\n'}
+[0.918290] (uav_controller_pkg) StderrLine: {'line': b'  Add the installation prefix of "px4_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[0.918323] (uav_controller_pkg) StderrLine: {'line': b'  "px4_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[0.918353] (uav_controller_pkg) StderrLine: {'line': b'  "px4_msgs" provides a separate development package or SDK, be sure it has\n'}
+[0.918382] (uav_controller_pkg) StderrLine: {'line': b'  been installed.\n'}
+[0.918412] (uav_controller_pkg) StderrLine: {'line': b'\n'}
+[0.918441] (uav_controller_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.918470] (uav_controller_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.918508] (uav_controller_pkg) StdoutLine: {'line': b'See also "/home/kyj/ws_px4_control/src/uav_controller_pkg/build/uav_controller_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[0.925205] (uav_controller_pkg) CommandEnded: {'returncode': 1}
+[0.941011] (uav_controller_pkg) JobEnded: {'identifier': 'uav_controller_pkg', 'rc': 1}
+[0.951451] (-) EventReactorShutdown: {}
