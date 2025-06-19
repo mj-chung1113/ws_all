@@ -1,5 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
+#include "geometry_msgs/msg/point.hpp" 
 #include "visualization_msgs/msg/marker.hpp"
 #include "tf2_ros/transform_listener.h"
 #include "tf2_ros/buffer.h"
@@ -51,8 +52,11 @@ public:
 
     cmd_pub_ = create_publisher<geometry_msgs::msg::Twist>("/model/X1_asp/cmd_vel", 10);
     marker_pub_ = create_publisher<visualization_msgs::msg::Marker>("target_marker", 10);
+    path_pub_ = create_publisher<visualization_msgs::msg::Marker>("path_marker", rclcpp::QoS(1).transient_local());  // latched QoS
 
     load_path();
+    publish_path_marker();
+
     timer_ = create_wall_timer(std::chrono::milliseconds(100), std::bind(&PathFollower::control_loop, this));
   }
 
@@ -129,6 +133,7 @@ private:
     }
 
     publish_marker(goal_x, goal_y);
+    publish_path_marker();
   }
 
   void publish_marker(double x, double y) {
@@ -151,6 +156,32 @@ private:
     marker_pub_->publish(marker);
   }
 
+  void publish_path_marker() {
+    visualization_msgs::msg::Marker line;
+    line.header.frame_id = "map";
+    line.header.stamp    = now();
+    line.ns   = "path";
+    line.id   = 0;
+    line.type = visualization_msgs::msg::Marker::LINE_STRIP;
+    line.action = visualization_msgs::msg::Marker::ADD;
+
+    line.pose.orientation.w = 1.0;
+
+    line.scale.x = 0.08;        // 선 두께
+    line.color.g = 1.0;         // 초록
+    line.color.a = 1.0;         // 불투명
+
+    // 끝까지 남겨두고 싶으면 0초(=영구)로
+    line.lifetime = rclcpp::Duration::from_seconds(0.0);
+
+    for (auto &[x, y, state] : path_) {
+      geometry_msgs::msg::Point p;
+      p.x = x;  p.y = y;  p.z = 0.1;   // 살짝 띄워서 지면과 겹침 방지
+      line.points.push_back(p);
+    }
+    path_pub_->publish(line);
+  }
+
   std::string path_file_;
   double arrival_thresh_, max_speed_;
   double current_x_{0.0}, current_y_{0.0}, current_yaw_{0.0};
@@ -159,6 +190,7 @@ private:
 
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_pub_;
   rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr marker_pub_;
+  rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr path_pub_;
   rclcpp::TimerBase::SharedPtr timer_;
   tf2_ros::Buffer tf_buffer_;
   tf2_ros::TransformListener tf_listener_;
